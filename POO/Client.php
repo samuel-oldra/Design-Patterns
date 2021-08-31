@@ -1,6 +1,6 @@
 <?php
 
-include_once 'MobileSniffer.php';
+include_once("MobileSniffer.php");
 
 class Client
 {
@@ -9,8 +9,8 @@ class Client
     public function __construct()
     {
         $this->mobSniff = new MobileSniffer();
-        print 'Device = ' . $this->mobSniff->findDevice() . '<br/>';
-        print 'Browser = ' . $this->mobSniff->findBrowser() . '<br/>';
+        print "Device = " . $this->mobSniff->findDevice() . "<br/>";
+        print "Browser = " . $this->mobSniff->findBrowser() . "<br/>";
     }
 }
 
