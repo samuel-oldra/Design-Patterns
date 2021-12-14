@@ -1,6 +1,6 @@
 <?php
 
-include_once("MobileSniffer.php");
+include_once "MobileSniffer.php";
 
 class Client
 {
