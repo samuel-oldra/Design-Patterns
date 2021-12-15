@@ -75,8 +75,34 @@ class PublicVis
     }
 }
 
-$worker = new PublicVis();
-$worker->unlock("secret");
-$worker->unlock("duh");
+//$worker = new PublicVis();
+//$worker->unlock("secret");
+//$worker->unlock("duh");
+
+// GETTERS E SETTERS
+
+class GetSet
+{
+    private $dataWarehouse;
+
+    public function __construct()
+    {
+        $this->setter(200);
+        $got = $this->getter();
+        echo $got;
+    }
+
+    private function getter()
+    {
+        return $this->dataWarehouse;
+    }
+
+    private function setter($setValue)
+    {
+        $this->dataWarehouse;
+    }
+}
+
+$worker = new GetSet();
 
 ?>
