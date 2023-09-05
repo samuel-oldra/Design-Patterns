@@ -10,11 +10,11 @@ class MobileSniffer
 
     public function __construct()
     {
-        $this->userAgent = $_SERVER['HTTP_USER_AGENT'];
+        $this->userAgent = $_SERVER["HTTP_USER_AGENT"];
         $this->userAgent = strtolower($this->userAgent);
 
-        $this->device = array('iphone', 'ipad', 'android', 'silk', 'blackberry', 'touch');
-        $this->browser = array('firefox', 'chrome', 'opera', 'msie', 'safari', 'blackberry', 'trident');
+        $this->device = array("iphone", "ipad", "android", "silk", "blackberry", "touch");
+        $this->browser = array("firefox", "chrome", "opera", "msie", "safari", "blackberry", "trident");
         $this->deviceLength = count($this->device);
         $this->browserLength = count($this->browser);
     }
