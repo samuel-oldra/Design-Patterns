@@ -18,7 +18,9 @@ class PrivateVis
     }
 }
 
-//$worker = new PrivateVis();
+$worker = new PrivateVis();
+
+echo "<br/><br/>";
 
 // PROTECTED
 
@@ -50,7 +52,9 @@ class ConcreteProtect extends ProtectVis
     }
 }
 
-//$worker = new ConcreteProtect();
+$worker = new ConcreteProtect();
+
+echo "<br/><br/>";
 
 // PUBLIC
 
@@ -75,9 +79,11 @@ class PublicVis
     }
 }
 
-//$worker = new PublicVis();
-//$worker->unlock("secret");
-//$worker->unlock("duh");
+$worker = new PublicVis();
+$worker->unlock("secret");
+$worker->unlock("duh");
+
+echo "<br/><br/>";
 
 // GETTERS E SETTERS
 
