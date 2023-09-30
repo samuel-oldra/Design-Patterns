@@ -1,0 +1,27 @@
+@charset 'UTF-8';
+/* CSS Document */
+
+img {
+    padding: 10px 10px 10px 10px;
+}
+
+.pixRight {
+    float: right;
+    margin: 0 0 5px 5px;
+}
+
+.pixLeft {
+    float: left;
+    margin: 0 5px 5px 0;
+}
+
+header {
+    color: #900;
+    font-size: 24px;
+    font-family: 'Arial Black', Gadget, sans-serif;
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+}
