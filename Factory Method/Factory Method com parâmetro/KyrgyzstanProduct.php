@@ -14,7 +14,7 @@ class KyrgyzstanProduct implements Product
         $this->mfgProduct = $this->formatHelper->addTop();
         $this->mfgProduct .= <<<Kyrgyzstan
 
-<img src='..\..\README_IMGS\kyrgyzstan.png' class='pixRight' width='300' height='300' />
+<img src='../../README_IMGS/kyrgyzstan.png' class='pixRight' width='300' height='300' />
 
 <header>Kyrgyzstan</header>
 
